@@ -1,0 +1,10 @@
+﻿@model AtaUte.Models.RestaurantReview
+
+<div class="review">
+    <h4>@Model.Name</h4>
+    <p>@Model.City, @Model.Country</p>
+    <p>Rating: @Model.Rating</p>
+
+    <span class="right">@Html.ActionLink("Edit", "Edit", new { id = Model.Id })</span>
+    <hr />
+</div>
