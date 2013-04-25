@@ -32,7 +32,7 @@ namespace AtaUte.Migrations
                 new Restaurant { Name = "Smaka", City = "Göteborg", Country = "Sverige" },
                 new Restaurant { Name = "Pasta+", City = "Göteborg", Country = "Sverige" },
                 new Restaurant { Name = "Orient", City = "Stockholm", Country = "Sverige" },
-                new Restaurant { Name = "Kalalah", City = "Örebro", Country = "Sverige", 
+                new Restaurant { Name = "Kock & Vin", City = "Örebro", Country = "Sverige", 
                     Reviews = new List<RestaurantReview> 
                     { new RestaurantReview{Rating = 4, Body = "Great food!", ReviewerName = "Robert"}}
                 },
